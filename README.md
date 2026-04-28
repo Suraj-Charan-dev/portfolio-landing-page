@@ -58,6 +58,7 @@ portfolio-landing-page/
 
 Example:
 ![Preview](ss1.png)
+![Preview](ss2.png)
 
 ---
 
