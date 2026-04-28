@@ -1,6 +1,6 @@
 # 🎨 Portfolio Landing Page
 
-A modern and responsive portfolio landing page built using HTML and CSS. This project showcases a clean UI design with smooth image hover animations, structured layout, and interactive elements for presenting personal projects and skills.
+A modern and responsive portfolio landing page built using HTML, CSS, and JavaScript. This project showcases a clean UI design with smooth image hover animations, dark/light mode toggle, and interactive elements for presenting personal projects and skills.
 
 ---
 
@@ -12,6 +12,7 @@ A modern and responsive portfolio landing page built using HTML and CSS. This pr
 * ✅ Interactive navigation bar
 * ✅ Social media icon integration
 * ✅ Download CV button
+* ✅ 🌙 Dark & Light mode toggle
 * ✅ Beginner-friendly project
 
 ---
@@ -20,6 +21,7 @@ A modern and responsive portfolio landing page built using HTML and CSS. This pr
 
 * 👉🏻 HTML5 – Structure
 * 👉🏻 CSS3 – Styling, Layout & Animations
+* 👉🏻 JavaScript – Dark mode functionality
 * 👉🏻 Font Awesome – Icons
 
 ---
@@ -30,13 +32,14 @@ A modern and responsive portfolio landing page built using HTML and CSS. This pr
 portfolio-landing-page/
 ├── index.html
 ├── style.css
+├── script.js
 ├── media/
-     ├── logo.png
-     ├── pattern.png
-     ├── person.png
-
+│    ├── logo.png
+│    ├── pattern.png
+│    ├── person.png
+│    ├── moon.png
+│    ├── sun.png
 ```
-
 
 ---
 
@@ -47,11 +50,11 @@ portfolio-landing-page/
 * 3️⃣ Image container uses hover effects for animation
 * 4️⃣ CSS transitions create smooth movement
 * 5️⃣ Social icons allow external profile linking
+* 6️⃣ Dark/light mode toggles using JavaScript and CSS variables
 
 ---
 
 ## 📸 Preview
-
 
 Example:
 ![Preview](ss1.png)
@@ -60,7 +63,7 @@ Example:
 
 ## 🎨 UI & Interaction Details
 
-* Uses flexbox for layout alignment
+* Uses Flexbox for layout alignment
 * Hover effects applied on images for dynamic UI
 * Clean typography and color contrast
 * Button styled using anchor tag
@@ -74,12 +77,27 @@ Example:
 * 2. Image moves on hover using CSS transitions
 * 3. Elements are positioned using absolute & relative positioning
 * 4. Layout adapts to screen size using percentage units
+* 5. Theme changes dynamically using CSS variables
 
 ---
 
 ## 🌐 Live Demo
 
 👉🏻 https://suraj-charan-dev.github.io/portfolio-landing-page/
+
+---
+
+## 📥 Installation
+
+1. Clone the repository:
+
+   ```
+   git clone https://github.com/your-username/portfolio-landing-page.git
+   ```
+
+2. Open the project folder
+
+3. Run `index.html` in your browser
 
 ---
 
@@ -93,7 +111,10 @@ Feel free to fork this repository and submit a pull request.
 
 ## 💡 Future Improvements
 
-* 🔥 Make fully responsive (mobile-friendly)
+* 🔥 Make fully responsive (mobile-first design)
 * 🔥 Add more sections (About, Projects, Contact)
-* 🔥 Add JavaScript for interactivity
-* 🔥 Improve animations and UI
+* 🔥 Add form validation
+* 🔥 Improve accessibility (ARIA, alt attributes)
+* 🔥 Enhance animations and UI
+
+---
